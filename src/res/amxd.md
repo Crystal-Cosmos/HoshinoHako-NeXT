@@ -33,23 +33,13 @@ Author:
 
 @tab 最新版本
 
-MIDIext 4.3
-<a
-  className="button button--lg button--outline button--primary"
-  target="_self"
+**MIDIext 4.3**
+<a 
   href="https://da-1302821495.cos.ap-chengdu.myqcloud.com/amxd/midiextension/MIDIext4.3.amxd"
-  referrerpolicy="origin">
-  下载
+  referrerpolicy="origin"
+  target="_self">
+    <DownloadButton/>
 </a>
-
-```card
-title: Download
-logo: /assets/icon/download-solid.svg
-link: https://da-1302821495.cos.ap-chengdu.myqcloud.com/amxd/midiextension/MIDIext4.3.amxd
-color: rgba(253, 230, 138, 0.15)
-```
-
-<b-button variant="outline-primary">Button</b-button>
 
 @tab 历史版本
 

@@ -1,6 +1,7 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
+import { registerComponentsPlugin } from "@vuepress/plugin-register-components";
 
 export default hopeTheme({
   hostname: "https://box.arkitosekai.net",
