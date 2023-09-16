@@ -1,18 +1,17 @@
 <template>
-  <a-space>
-    <a-button type="primary" :size="size">
-      <template #icon>
-        <DownloadOutlined />
-      </template>
-      下载
-    </a-button>
-  </a-space>
+  <div>
+    <a-config-provider
+      :theme="{
+        token: {
+          colorPrimary: '#ffb300',
+        },
+      }"
+    >
+      <a-space>
+        <a-button type="primary" ghost>点击下载</a-button>
+      </a-space>
+    </a-config-provider>
+  </div>
 </template>
-<script lang="ts" setup>
-import { DownloadOutlined } from '@ant-design/icons-vue';
-import type { SizeType } from 'ant-design-vue/es/config-provider';
-import { ref } from 'vue';
-const size = ref<SizeType>('large');
-</script>
 
   

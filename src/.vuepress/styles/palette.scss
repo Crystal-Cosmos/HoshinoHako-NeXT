@@ -1,5 +1,8 @@
 // you can change colors here
 $theme-color: #ffb300;
-$text-color: #d2d2d2;
+$text-color: (
+  light: #000000,
+  dark: #ffffff,
+);
 $font-family: '-apple-system, "PingFang SC", Arial, "Microsoft Yahei", sans-serif';
 $font-family-heading: '-apple-system, "PingFang SC", Arial, "Microsoft Yahei", sans-serif';

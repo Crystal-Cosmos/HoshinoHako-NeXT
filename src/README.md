@@ -5,7 +5,7 @@ title: 主页
 heroImage: /logo.svg
 bgImageDark: bg.webp
 bgImageStyle: 
-  filter: opacity(50%)
+  filter: opacity(50%) 
 heroText: 星之箱 | HoshinoHako
 heroFullScreen: true
 tagline: 专为中国Launchpadder打造的一站式工具箱！

@@ -1,7 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
-import { registerComponentsPlugin } from "@vuepress/plugin-register-components";
 
 export default hopeTheme({
   hostname: "https://box.arkitosekai.net",
@@ -16,6 +15,8 @@ export default hopeTheme({
   logo: "/logo.svg",
 
   repo: "arkitowho/hoshinohako",
+
+  repoDisplay: false,
 
   docsDir: "src",
 
@@ -38,6 +39,8 @@ export default hopeTheme({
   editLink: false,
 
   contributors: false,
+
+  darkmode: "enable",
 
   encrypt: {
     config: {
