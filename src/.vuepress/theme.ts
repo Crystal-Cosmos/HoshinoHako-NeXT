@@ -58,7 +58,7 @@ export default hopeTheme({
       global: true,
       disableCopy: true,
       disableSelection: false,
-      triggerWords: 1,
+      triggerLength: 1,
     },
     // All features are enabled for demo, only preserve features you need here
     mdEnhance: {
