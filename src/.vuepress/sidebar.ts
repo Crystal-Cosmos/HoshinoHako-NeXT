@@ -8,6 +8,7 @@ export default sidebar({
       icon: "download",
       children: [
         "amxd",
+        "manual",
       ]
     },
   ],

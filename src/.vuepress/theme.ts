@@ -63,6 +63,11 @@ export default hopeTheme({
       disableSelection: false,
       triggerLength: 1,
     },
+    components: {
+      components: [
+        "PDF",
+      ],
+    },
     // All features are enabled for demo, only preserve features you need here
     mdEnhance: {
       align: true,
@@ -72,7 +77,7 @@ export default hopeTheme({
       codetabs: true,
       demo: true,
       echarts: true,
-      figure: true,
+      figure: false,
       flowchart: true,
       gfm: true,
       imgLazyload: true,

@@ -13,5 +13,3 @@
     </a-config-provider>
   </div>
 </template>
-
-  
