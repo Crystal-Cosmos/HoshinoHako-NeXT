@@ -23,13 +23,11 @@ export default navbar([
   {
     text: "关于",
     link: "about",
-    prefix: "/",
     icon: "circle-info",
   },
   {
     text: "赞助网站",
     link: "support",
-    prefix: "/",
     icon: "fa-solid fa-mug-saucer",
   },
 //  {
