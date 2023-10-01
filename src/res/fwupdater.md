@@ -13,7 +13,7 @@ MK3系列使用Novation Components软件来管理设备，请前往Components更
     href="https://components.novationmusic.com"
     type="primary"
     ghost>
-    转到NC
+    转到Novation Components
 </a-button>
 
 ::: warning

@@ -16,12 +16,9 @@ sidebar: false
 
 所以，以上
 
-感谢各位的支持，期待大家的反馈~
+希望各位能喜欢，并多多传播给需要的朋友，期待大家的反馈~
 
-----
-
-### 联系方式：
-
+## 联系方式：
 Email: contact@arkitosekai.net
 
 [bilibili](https://space.bilibili.com/16215189)
@@ -30,8 +27,7 @@ Discord: arkitowho
 
 Twitter(X): @Arkito_Who
 
-### 内容补充：
-
+## 内容补充：
 觉得缺了点东西？或者东西补全想要补充？
 
 通过邮件或者B站私信向我发送即可

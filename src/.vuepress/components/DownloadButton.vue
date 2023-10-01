@@ -6,7 +6,7 @@
     },
   }">
     <a-space wrap>
-      <a-button>Primary Button</a-button>
+      <a-button type="primary" ghost>点击下载</a-button>
     </a-space>
   </a-config-provider>
 </template>

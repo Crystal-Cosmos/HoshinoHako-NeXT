@@ -69,7 +69,7 @@ export default hopeTheme({
     copyright: {
       global: true,
       disableCopy: true,
-      disableSelection: false,
+      disableSelection: true,
       triggerLength: 1,
     },
     components: {
