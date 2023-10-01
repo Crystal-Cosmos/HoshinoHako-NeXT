@@ -25,3 +25,6 @@ actions:
 copyright: Copyright © Arkito in CrystalCosmos
 #footer: <img src="https://count.getloli.com/get/@hoshinohako" alt="Moe Counter" width="200" height="70">
 ---
+<template>
+    <DownloadButton />
+</template>
