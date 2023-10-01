@@ -4,6 +4,10 @@ description: 从这里下载Launchpad的官方固件更新程序
 icon: upload
 ---
 
+<template>
+    <DownloadButton />
+</template>
+
 **如何使用？请查看教学页面：[跳转](/tips/update-firmware)**
 
 ## Launchpad MK3系列
