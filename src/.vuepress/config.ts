@@ -1,7 +1,8 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 import { registerComponentsPlugin } from "@vuepress/plugin-register-components"
-import { path } from '@vuepress/utils';
+import { getDirname, path } from "@vuepress/utils";
+const __dirname = getDirname(import.meta.url);
 
 export default defineUserConfig({
   base: "/",

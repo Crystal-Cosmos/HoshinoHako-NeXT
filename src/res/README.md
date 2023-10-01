@@ -5,3 +5,4 @@ icon: download
 category:
   - 下载
 ---
+<AutoCatalog />

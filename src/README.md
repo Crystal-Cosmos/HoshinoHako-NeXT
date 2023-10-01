@@ -11,11 +11,15 @@ heroFullScreen: true
 tagline: 专为中国Launchpadder打造的一站式工具箱！
 actions:
   - text: 从零开始学习 📄
-    link: ./tutorial/
+    link: /lessons/
     type: primary
 
   - text: 常用工具下载 🔧
-    link: ./res/
+    link: /res/
+    type: primary
+
+  - text: 赞助网站 ☕
+    link: support
     type: primary
 
 copyright: Copyright © Arkito in CrystalCosmos

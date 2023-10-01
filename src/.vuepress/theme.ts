@@ -24,8 +24,16 @@ export default hopeTheme({
 
   print: false,
 
+  hotReload: true,
+
   // navbar
   navbar,
+
+  navbarLayout: {
+    start: ["Brand"],
+    center: ["Links"],
+    end: ["Language", "Repo", "Outlook", "Search"],
+  },
 
   // sidebar
   sidebar,
@@ -55,6 +63,7 @@ export default hopeTheme({
 
   plugins: {
     // You should generate and use your own comment service
+    autoCatalog: true,
     comment: false,
     copyCode: {},
     copyright: {
@@ -64,6 +73,27 @@ export default hopeTheme({
       triggerLength: 1,
     },
     components: {
+      rootComponents: {
+        notice: [
+          {
+            path: "/",
+            title: "新版本现已上线",
+            content: "新版本：NeXT现已推送，如果遇到了Bug或者什么问题欢迎报告",
+//            actions: [
+//              {
+//                text: "Primary Action",
+//                link: "https://theme-hope.vuejs.press/",
+//                type: "primary",
+//              },
+//              {
+//                text: "我知道了",
+//                type: "primary",
+//              },
+//            ],
+            fullscreen: false,
+          },
+        ],
+      },
       components: [
         "PDF",
       ],
