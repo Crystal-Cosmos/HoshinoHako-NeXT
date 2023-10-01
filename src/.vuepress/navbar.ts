@@ -20,16 +20,8 @@ export default navbar([
       },
     ],
   },
-  {
-    text: "关于",
-    link: "about",
-    icon: "circle-info",
-  },
-  {
-    text: "赞助网站",
-    link: "support",
-    icon: "fa-solid fa-mug-saucer",
-  },
+  "/about/",
+  "/support/",
 //  {
 //    text: "TEST",
 //    icon: "lightbulb",
