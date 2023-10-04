@@ -1,7 +1,6 @@
 ---
 title: 关于
 icon: circle-info
-sidebar: false
 ---
 各位使用本站的朋友们大家好，我是Arkito，感谢各位能够使用“星の箱（Ho Shi No Ha Ko）”。
 

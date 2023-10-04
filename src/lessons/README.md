@@ -6,3 +6,7 @@ category:
   - 教程
 ---
 <AutoCatalog />
+
+<template>
+    <DownloadButton />
+</template>

@@ -1,6 +1,5 @@
 ---
 title: 赞助支持
-sidebar: false
 icon: fa-solid fa-mug-saucer
 ---
 

@@ -1,6 +1,13 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
+  "/": [
+    "about",
+    "tos",
+    "changelog",
+    "support",
+  ],
+
   "/res/": [
     "software",
     "mobileapp",
@@ -11,15 +18,46 @@ export default sidebar({
     "vfootage",
     "fwupdater",
   ],
-
+  
   "/lessons/": [
-    "t1",
-    "t2",
-  ],
-
-  "/": [
-    "contact",
-    "support",
+    {
+      text: "从零开始学习Launchpad",
+      collapsible: true,
+      prefix: "zero2intro/",
+      icon: "graduation-cap",
+      children: [
+        "01",
+        "02",
+        "03",
+        "04",
+      ],
+    },
+    {
+      text: "从零开始工程制作",
+      prefix: "makeproj/",
+      collapsible: true,
+      icon: "graduation-cap",
+      children: [
+        "noob",
+        "intro",
+        "advance",
+      ],
+    },
+    {
+      text: "其他教学",
+      prefix: "others/",
+      collapsible: true,
+      icon: "graduation-cap",
+      children: [
+        "cfwmanual",
+        "update-fw",
+        "midiportset",
+        "inuni",
+        "push2dev",
+        "resetlive",
+        "audiovisualization",
+      ],
+    },
   ],
 //  "/res/": [
 //    {

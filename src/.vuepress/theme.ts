@@ -38,7 +38,7 @@ export default hopeTheme({
   // sidebar
   sidebar,
 
-  footer: "「◉▼◉」",
+  footer: "「Vanitas Vanitatum Et Omnia Vanitas」",
 
   displayFooter: true,
 
@@ -77,20 +77,17 @@ export default hopeTheme({
         notice: [
           {
             path: "/",
-            title: "新版本现已上线",
-            content: "新版本：NeXT现已推送，如果遇到了Bug或者什么问题欢迎报告",
-//            actions: [
-//              {
-//                text: "Primary Action",
-//                link: "https://theme-hope.vuejs.press/",
-//                type: "primary",
-//              },
-//              {
-//                text: "我知道了",
-//                type: "primary",
-//              },
-//            ],
-            fullscreen: false,
+            title: "公告",
+            content: "新版本：NeXT现已推送，如果遇到了Bug或者什么问题欢迎报告，本网站并未对手机做适配，有很多不合理的配置是正常的，请使用电脑访问",
+            showOnce: true,
+            confirm: true,
+            actions: [
+              {
+                text: "知道了知道了别说了━━(￣ー￣*|||━━",
+                type: "primary",
+              },
+            ],
+            fullscreen: true,
           },
         ],
       },

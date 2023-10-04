@@ -20,7 +20,11 @@ export default navbar([
       },
     ],
   },
-  "/about/",
+  {
+    text: "关于",
+    link: "/about/",
+    icon: "circle-info",
+  },
   "/support/",
 //  {
 //    text: "TEST",

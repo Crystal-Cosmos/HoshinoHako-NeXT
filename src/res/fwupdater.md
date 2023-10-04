@@ -8,7 +8,7 @@ icon: upload
     <DownloadButton />
 </template>
 
-**如何使用？请查看教学页面：[跳转](/tips/update-firmware)**
+**如何使用？请查看教学页面：[跳转](/lessons/others/update-fw)**
 
 ## Launchpad MK3系列
 MK3系列使用Novation Components软件来管理设备，请前往Components更新
