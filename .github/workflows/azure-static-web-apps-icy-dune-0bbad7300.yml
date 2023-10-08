@@ -35,7 +35,7 @@ jobs:
           output_location: "src/.vuepress/dist" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
         env:
-          NODE_VERSION: 18.18.0
+          NODE_VERSION: 18.16.1
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
