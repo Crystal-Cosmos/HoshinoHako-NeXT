@@ -78,7 +78,7 @@ export default hopeTheme({
           {
             path: "/",
             title: "公告",
-            content: "新版本：NeXT现已推送，如果遇到了Bug或者什么问题欢迎报告，本网站并未对手机做适配，有很多不合理的配置是正常的，请使用电脑访问",
+            content: "新版本：NeXT现已推送，如果遇到了Bug或者什么问题欢迎报告 <br/><br/> 本网站并未对手机做适配，会有很多不正常的页面布局，请尽量使用电脑访问哦",
             showOnce: true,
             confirm: true,
             actions: [
