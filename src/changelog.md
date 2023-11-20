@@ -2,6 +2,10 @@
 title: 更新日志
 icon: fa-solid fa-clock-rotate-left
 ---
+2023/11/20
+- 换了新Logo
+- 给Live 12的教程做了占位
+
 2023/10/4
 - NeXT框架完成，现已推送
 

@@ -21,9 +21,18 @@ export default sidebar({
   
   "/lessons/": [
     {
-      text: "从零开始学习Launchpad",
+      text: "从零开始学习Launchpad with Ableton Live 12",
       collapsible: true,
       prefix: "zero2intro/",
+      icon: "graduation-cap",
+      children: [
+        "sorry-no-live-for-you",
+      ],
+    },
+    {
+      text: "从零开始学习Launchpad with Ableton Live 11",
+      collapsible: true,
+      prefix: "zero2intro-al11/",
       icon: "graduation-cap",
       children: [
         "01",
@@ -34,7 +43,7 @@ export default sidebar({
     },
     {
       text: "从零开始工程制作",
-      prefix: "makeproj/",
+      prefix: "make-proj/",
       collapsible: true,
       icon: "graduation-cap",
       children: [
@@ -56,6 +65,7 @@ export default sidebar({
         "push2dev",
         "resetlive",
         "audiovisualization",
+        "importvideo",
       ],
     },
   ],
