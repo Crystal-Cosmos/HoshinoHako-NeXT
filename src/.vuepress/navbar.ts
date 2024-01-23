@@ -6,7 +6,7 @@ export default navbar([
   "/res/",
   {
     text: "常用网站",
-    icon: "fa-solid fa-compass",
+    icon: "compass",
     children: [
       {
         text: "Launchpad固件助手",

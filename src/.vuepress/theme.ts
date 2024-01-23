@@ -10,7 +10,9 @@ export default hopeTheme({
     url: "https://space.bilibili.com/16215189",
   },
 
-  iconAssets: "fontawesome-with-brands",
+  iconAssets: [
+    "//at.alicdn.com/t/c/font_4421024_stsfip4h4t.css",
+  ],
 
   logo: "/favicon.ico",
 
@@ -42,7 +44,7 @@ export default hopeTheme({
 
   displayFooter: true,
 
-  lastUpdated: false,
+  lastUpdated: true,
 
   editLink: false,
 

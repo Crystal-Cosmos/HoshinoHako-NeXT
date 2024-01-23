@@ -26,7 +26,10 @@ export default sidebar({
       prefix: "zero2intro/",
       icon: "graduation-cap",
       children: [
-        "sorry-no-live-for-you",
+        "01",
+        "02",
+        "03",
+        "04",
       ],
     },
     {

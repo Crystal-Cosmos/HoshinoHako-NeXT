@@ -1,7 +1,11 @@
 ---
 title: 更新日志
-icon: fa-solid fa-clock-rotate-left
+icon: clock-rotate-left
 ---
+2024/1/23
+- Live 12教程填充占位
+- 更改icon服务商为iconfont，加快图标加载速度
+
 2023/11/20
 - 换了新Logo
 - 给Live 12的教程做了占位

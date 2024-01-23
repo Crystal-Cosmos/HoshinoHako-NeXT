@@ -1,6 +1,6 @@
 ---
 title: 赞助支持
-icon: fa-solid fa-mug-saucer
+icon: mug-saucer
 ---
 
 网站做起来太花钱辣，如果你想让我一直开下去就帮帮孩子吧

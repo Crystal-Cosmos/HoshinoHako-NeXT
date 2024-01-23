@@ -1,7 +1,7 @@
 ---
 title: 手机软件
 description: 这里有手机端需要用到的软件
-icon: fa-solid fa-mobile-screen-button
+icon: mobile-screen-button
 ---
 这里可以下载手机上的相关软件
 

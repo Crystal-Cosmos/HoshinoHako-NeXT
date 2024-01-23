@@ -1,6 +1,6 @@
 ---
 title: TOS
-icon: fa-brands fa-creative-commons
+icon: creative-commons
 ---
 
 **使用本站及意味着您同意了本站的所有条例，一切违规行为都由您全权负责，本站不承担任何责任。**

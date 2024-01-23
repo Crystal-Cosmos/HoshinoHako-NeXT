@@ -1,7 +1,7 @@
 ---
 title: Max For Live 插件
 description: 从这里下载在Live里使用的插件
-icon: "/assets/icon/C74.svg"
+icon: iconfont icon-C74
 ---
 
 amxd插件，全称Ableton Max Device，基于Max For Live。
