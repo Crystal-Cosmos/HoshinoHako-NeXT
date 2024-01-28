@@ -62,9 +62,7 @@ export default sidebar({
       icon: "graduation-cap",
       children: [
         "cfwmanual",
-        "update-fw",
         "midiportset",
-        "insuni",
         "push2dev",
         "resetlive",
         "audiovisualization",
