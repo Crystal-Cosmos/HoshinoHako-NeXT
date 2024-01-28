@@ -26,7 +26,7 @@ export default hopeTheme({
 
   print: false,
 
-  hotReload: true,
+  hotReload: false,
 
   // navbar
   navbar,
