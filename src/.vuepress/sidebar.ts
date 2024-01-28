@@ -64,7 +64,7 @@ export default sidebar({
         "cfwmanual",
         "update-fw",
         "midiportset",
-        "inuni",
+        "insuni",
         "push2dev",
         "resetlive",
         "audiovisualization",
