@@ -67,6 +67,7 @@ export default sidebar({
         "resetlive",
         "audiovisualization",
         "importvideo",
+        "sai-installer",
       ],
     },
   ],

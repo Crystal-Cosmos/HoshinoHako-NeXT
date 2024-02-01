@@ -35,7 +35,7 @@ Firefox | Windows & macOS | 需要版本≥108
 QQ浏览器 | Windows | 兼容
 
 ### MK3手动更新固件
-如果你无法使用官方的方式更新固件，我将所有固件从Components上扒了下来，你可以下载你对应型号的固件后使用Launchpad固件助手的“自定义SysEx文件”刷入功能，来将新固件刷入到设备里，[如何使用？](/tips/update-firmware#我无法访问novation-components有别的方法吗)
+如果你无法使用官方的方式更新固件，我将所有固件从Components上扒了下来，你可以下载你对应型号的固件后使用Launchpad固件助手的“自定义SysEx文件”刷入功能，来将新固件刷入到设备里，[如何使用？](/lessons/zero2intro/02.html#我无法访问novation-components-有别的方法吗)
 ::: info 建议
 建议只有当完全没法访问Components时再使用手动更新的方式
 :::
