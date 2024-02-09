@@ -2,8 +2,16 @@
 title: 更新日志
 icon: clock-rotate-left
 ---
+2024/2/9
+- 更新Apollo Studio -> 1.8.15
+- fetch upstream for LFU
+
+2024/2/1
+- 修复部分错误
+- 调整部分UI
+
 2024/1/23
-- Live 12教程填充占位
+- Live 12教程填充
 - 更改icon服务商为iconfont，加快图标加载速度
 
 2023/11/20
