@@ -5,11 +5,14 @@ on:
     branches:
       - "master"
 
+permissions:
+  contents: write
+
 jobs:
   deploy:
     name: deploy pages
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3
