@@ -23,6 +23,6 @@ actions:
     link: support
     type: primary
 
-copyright: Background from <a href="https://wallhaven.cc/w/ex2wd8" target="_blank">Wallhaven</a> | Copyright © Arkito in CrystalCosmos <a href="https://icp.gov.moe/?keyword=20234110" target="_blank">萌ICP备20234110号</a>
-footer: <img src="https://count.getloli.com/get/@hoshinohako" alt="Moe Counter" width="200" height="70">
+copyright: Background from <a href="https://wallhaven.cc/w/ex2wd8" target="_blank">Wallhaven</a> | Copyright © Arkito in CrystalCosmos
+footer:  <a href="https://icp.gov.moe/?keyword=20234110" target="_blank">萌ICP备20234110号</a>
 ---
