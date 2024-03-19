@@ -24,5 +24,5 @@ actions:
     type: primary
 
 copyright: Background from <a href="https://wallhaven.cc/w/ex2wd8" target="_blank">Wallhaven</a> | Copyright © Arkito in CrystalCosmos
-footer:  <a href="https://icp.gov.moe/?keyword=20234110" target="_blank">萌ICP备20234110号</a>
+footer:  <img class="icp-icon" src="assets/icon/icon120.png"/> <a href="https://icp.gov.moe/?keyword=20234110" target="_blank">萌ICP备20234110号</a>
 ---
