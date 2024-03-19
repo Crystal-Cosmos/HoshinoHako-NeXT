@@ -2,6 +2,10 @@
 title: 更新日志
 icon: clock-rotate-left
 ---
+2024/3/14
+- 添加了Pro救砖流程，暂时不会列入主项目，但你可以通过此处 [跳转查看](lessons/others/unbrick.md)
+- 优化Live 12教程图片
+
 2024/2/9
 - 更新Apollo Studio -> 1.8.15
 - fetch upstream for LFU
