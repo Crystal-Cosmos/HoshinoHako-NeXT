@@ -1632,7 +1632,7 @@ packages:
       '@mdit/plugin-tex': 0.4.8
       '@types/katex': 0.16.3
       '@types/markdown-it': 12.2.3
-      katex: 0.16.8
+      katex: 0.16.10
       markdown-it: 13.0.2
     dev: true
 
@@ -4192,8 +4192,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /katex@0.16.8:
-    resolution: {integrity: sha512-ftuDnJbcbOckGY11OO+zg3OofESlbR5DRl2cmN8HeWeeFIV7wTXvAOx8kEjZjobhA+9wh2fbKeO6cdcA9Mnovg==}
+  /katex@0.16.10:
+    resolution: {integrity: sha512-ZiqaC04tp2O5utMsl2TEZTXxa6WSC4yo0fv5ML++D3QZv/vx2Mct0mTlRx3O+uUkjfuAgOkzsCmq5MiUEsDDdA==}
     hasBin: true
     dependencies:
       commander: 8.3.0
@@ -6037,7 +6037,7 @@ packages:
       echarts: 5.4.3
       flowchart.ts: 1.0.0
       js-yaml: 4.1.0
-      katex: 0.16.8
+      katex: 0.16.10
       markdown-it: 13.0.2
       mermaid: 10.4.0
       reveal.js: 4.6.1
