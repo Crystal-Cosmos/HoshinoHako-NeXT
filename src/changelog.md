@@ -2,6 +2,11 @@
 title: 更新日志
 icon: clock-rotate-left
 ---
+2024/4/23
+- 更新了一对一课程介绍
+- 翻译了救砖流程
+- 预添加MIDI Fighter 64相关内容
+
 2024/3/14
 - 添加了Pro救砖流程，暂时不会列入主项目，但你可以通过此处 [跳转查看](lessons/others/unbrick.md)
 - 优化Live 12教程图片

@@ -68,8 +68,10 @@ export default sidebar({
         "audiovisualization",
         "importvideo",
         "sai-installer",
+        "unbrick",
       ],
     },
+    "master-class",
   ],
 //  "/res/": [
 //    {

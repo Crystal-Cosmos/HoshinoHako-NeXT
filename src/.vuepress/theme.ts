@@ -79,15 +79,20 @@ export default hopeTheme({
         notice: [
           {
             path: "/",
-            title: "公告",
-            content: "新版本：NeXT现已推送，如果遇到了Bug或者什么问题欢迎报告 <br/><br/> 本网站并未对手机做适配，会有很多不正常的页面布局，请尽量使用电脑访问哦",
-            showOnce: true,
+            title: "一对一课程🎈",
+            content: "想要一对一学习工程制作吗，我开始招收学生啦！每节两小时，教你制作自己喜欢的歌曲！",
+            showOnce: false,
             confirm: true,
             actions: [
               {
-                text: "知道了知道了别说了━━(￣ー￣*|||━━",
+                text: "继续了解",
                 type: "primary",
+                link: "/lessons/master-class.md"
               },
+              {
+                text: "关闭",
+                type: "default",
+              }
             ],
             fullscreen: true,
           },
@@ -95,6 +100,9 @@ export default hopeTheme({
       },
       components: [
         "PDF",
+        "Badge",
+        "BiliBili",
+        "YouTube",
       ],
     },
     // All features are enabled for demo, only preserve features you need here
