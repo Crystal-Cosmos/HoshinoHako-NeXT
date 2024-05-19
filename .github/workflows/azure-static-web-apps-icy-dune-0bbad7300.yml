@@ -28,14 +28,13 @@ jobs:
           ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
           app_location: "/" # App source code path
-          app_build_command: 'pnpm docs:build'
           skip_api_build: true
           output_location: "src/.vuepress/dist" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
         env:
           NODE_VERSION: 20.11.1
           PRE_BUILD_COMMAND: npm install -g pnpm
-          CUSTOM_BUILD_COMMAND: pnpm install
+          CUSTOM_BUILD_COMMAND: pnpm install && pnpm docs:build
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
