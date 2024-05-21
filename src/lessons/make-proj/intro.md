@@ -69,14 +69,14 @@ STEMS提取出来后已经有分离后的歌曲与单独提取出来的内容了
 我们回到Live，找到默认创建的两个音频轨道，一个用来放原曲，一个用来放你提取出来鼓点采样。
 其他与菜鸟篇一致，两个音频的Warp功能都关掉，还有设置Live的BPM
 
-![img](/img/tutorial/makeproject/02/set-audio.png)
+![img](/images/tutorial/makeproject/02/set-audio.png)
 
 ### 对拍
 与菜鸟篇一致，将两个音频的波形对齐，然后一定一定要对齐再节拍线上，否则后面很难切片
 
 如果你听不出来两个音频是不是对上了，你可以试着将每个音频的开头都拉伸一下，将导入音频Live自动裁剪掉的一部分展开，大部分时候都可以将音频对齐，但如果还是没有对齐，你只能靠分辨波形区别跟耳朵听来对齐了
 
-![img](/img/tutorial/makeproject/02/set-audio-beat.gif)
+![img](/images/tutorial/makeproject/02/set-audio-beat.gif)
 
 ### 相位抵消去除鼓点
 那这里涉及到一个音频理论知识
@@ -84,10 +84,10 @@ STEMS提取出来后已经有分离后的歌曲与单独提取出来的内容了
 音频是一段波我们应该是都知道的
 
 那么相位(Phase)是对于一个波，特定的时刻在它循环中的位置：一种它是否在波峰、波谷或它们之间的某点的标度，如图
-![img](/img/tutorial/makeproject/02/audio-phase.gif)
+![img](/images/tutorial/makeproject/02/audio-phase.gif)
 
 那我们接着要干的相位抵消是什么呢，我们要做的是将歌曲的这个波形反转过来，然后将反转后的波形与原始波形对齐。当两者波形正反完全对齐时，波形就会成一条直线，也就是没有波形，等同于没有声音
-![img](/img/tutorial/makeproject/02/out-of-phase.jpg)
+![img](/images/tutorial/makeproject/02/out-of-phase.jpg)
 
 那看懂的人应该就能理解了，相位反转后，我们提取出来的鼓就会与原歌曲音频里的鼓点部分的波形做抵消，达到把鼓从歌曲里去除的目的，相当于正负值相加等于0。当然我们的鼓毕竟是计算提取出来的，不是原始鼓的音频，达不到完全抵消的程度，但效果已经很不错了
 
@@ -95,84 +95,84 @@ STEMS提取出来后已经有分离后的歌曲与单独提取出来的内容了
 
 我们创建一个新的空音频轨道，然后在浏览器面板-音频效果器-Utilities，将Utility效果器拖到这个空轨道，然后打开左右声道的相位反转，可以把轨道命名为预合成鼓点
 
-![img](/img/tutorial/makeproject/02/utility.gif)
+![img](/images/tutorial/makeproject/02/utility.gif)
 
 将提取计算出来的鼓挪动到下方的空轨道即可，这里不要傻乎乎的把所有音频都开着，你所有音频一起播放都爆电平了你听个鬼，只让原曲播放就好了，反正我们已经把节拍都对齐原曲了，你直接复制粘贴就好了，接下来我们要进行相位抵消
 
-![img](/img/tutorial/makeproject/02/copy-drums.gif)
+![img](/images/tutorial/makeproject/02/copy-drums.gif)
 
 然后可以将鼓点的末尾加一点淡出，减少违和感
 
-![img](/img/tutorial/makeproject/02/audio-fadeout.gif)
+![img](/images/tutorial/makeproject/02/audio-fadeout.gif)
 
 提取完成后关闭如图，之后我们折叠“鼓点STEMS”那个音频的轨道，或者直接删掉，因为用不到了，否则一起放会爆音。
 
-![img](/img/tutorial/makeproject/02/drums.png)
+![img](/images/tutorial/makeproject/02/drums.png)
 
 这时你去播放，原曲内的鼓点就已经被消除了。但此时还处于预览状态，并没有被应用，我们需要选择整个歌曲，点标题栏他就能全部选中，然后我们点文件-导出 音频/视频，然后什么都不改导出，文件名可以取歌曲的名字，或者其他，但不建议带中文
 
-![img](/img/tutorial/makeproject/02/export-audio.gif)
+![img](/images/tutorial/makeproject/02/export-audio.gif)
 
 导出完成后把刚才导出的音频再放进来，跟鼓点对齐，使其播放的时候鼓点跟歌曲对上
 
-![img](/img/tutorial/makeproject/02/processed-audio.png)
+![img](/images/tutorial/makeproject/02/processed-audio.png)
 
 之后然后关闭或者删除“原曲”轨道，关闭“预处理鼓点”轨道内的Utility效果器，这样就处理好了后播放，就得到了分离的音频跟鼓点
 
-![img](/img/tutorial/makeproject/02/utility-off.png)
+![img](/images/tutorial/makeproject/02/utility-off.png)
 
 之后你还可以框选一下所有的鼓点，右键鼠标，点合并，将鼓点都合并成一个音频
 
-![img](/img/tutorial/makeproject/02/consolidate-drums.gif)
+![img](/images/tutorial/makeproject/02/consolidate-drums.gif)
 
 同时也不能忘记关闭Warp功能
 
-![img](/img/tutorial/makeproject/02/consoliaudio-warpoff.png)
+![img](/images/tutorial/makeproject/02/consoliaudio-warpoff.png)
 
 ## 制作音频轨道
 左手部分你只需要将制作好的鼓点采样以同样的方式置入到左手的按键中连起来弹即可
 
-![img](/img/tutorial/makeproject/02/import-drums.gif)
+![img](/images/tutorial/makeproject/02/import-drums.gif)
 
 ### 制作一键多音
 一键多音有两种制作方法，一种需要用到插件，有很多种选择，比方说Kaskobi的Multi Effect，mat1jaczyyy的Multi。一种是使用Live内置的效果器来制作，比较快捷，缺点是按错了没办法一键还原，需要手动按回去。这里我选择用插件来讲，使用比较规范的Multi
 
 首先我们需要获取插件，将插件放在指定位置，然后从Live里拖入到你需要制作一键多音的按键上，放置完成后是这样的，插件里的Note代表触发模式，有Note跟Macro两种模式。如果使用Multi插件推荐保持Note不变，因为Macro模式有Bug，使用Multi Effect则没有问题。两种模式的区别大同小异，只是一个控制的是Key，一个控制的Chain，推荐用Note，最稳定。Count则是一件多音的计数，你要同一个键绑多少个音频就设置多少
 
-![img](/img/tutorial/makeproject/02/multisamples.png)
+![img](/images/tutorial/makeproject/02/multisamples.png)
 
 假设我这里需要同一个键播放两段音频，我就Count输入2，然后再Multi插件的后方，放入一个Instrument Rack，然后将列表显示出来
 
-![img](/img/tutorial/makeproject/02/multi-instrumentrack.png)
+![img](/images/tutorial/makeproject/02/multi-instrumentrack.png)
 
 然后将你要多音的两段音频放进来 
 
-![img](/img/tutorial/makeproject/02/set-multi.gif)
+![img](/images/tutorial/makeproject/02/set-multi.gif)
 
 调整采样的模式，这里设置方法与菜鸟篇一致
 
-![img](/img/tutorial/makeproject/02/set-simpler.gif)
+![img](/images/tutorial/makeproject/02/set-simpler.gif)
 
 然后展开当前Instrument Rack内的Key选择器，当你装载了Multi插件时，你每按一下按键，Key都会往后走一格，你设定了多少的Count值他就往后走多少下。不过此时依旧是全部触发，我们要将两段采样限制一下。我们按下按键时，看Key这里会亮起红色区域，代表你当前触发的区域，他每按一次它都会往后移动一格，到达你设定的Count值后再从头开始做一个循环。因此我们只需要从头开始按住按键，双击第一个采样的绿色区块，到第二格后一样按住按键，双击音频的绿色区块。正常情况下应该是以阶梯状排布的
 
-![img](/img/tutorial/makeproject/02/set-multikey.gif)
+![img](/images/tutorial/makeproject/02/set-multikey.gif)
 
 此时一键多音已经完成了，但你仔细听你会发现只有第一个音是正常的，之后每往后一个音都会升调变速。这个就是Note与Macro的区别，Note相当于是钢琴键盘，你每往后移动一个音符播放出来的当然会升调，不可避免的，而Macro只是换个位置，他并不会造成升调，但此方法经常有Bug。解决升调的方法也很简单，从第二个音开始依此往下降一个调即可，在第二个音的采样器里将Transp旋钮调成-1即可。如果你有更多的音频切片，比方说有第三个，第四个，这里的Transp需要调整的是叠加的，比方说第三个要调成-2，第四个要调成-3，阶梯状依此排布，每个升调的最后都会降到原调
 
 具体调整方法如图
 
-![img](/img/tutorial/makeproject/02/pitch.gif)
+![img](/images/tutorial/makeproject/02/pitch.gif)
 
 ### 制作一键多灯
 一键多灯的制作方法与一键多音完全一致，只不过将用于音频的采样器改成了MIDIext
 
 我们先插入一个MIDI Effect Rack，将它绑定到你要一键多灯的按键上
 
-![img](/img/tutorial/makeproject/02/midieffectrack-set.png)
+![img](/images/tutorial/makeproject/02/midieffectrack-set.png)
 
 然后在这个Rack里插入两个MIDIext，在其前面插入Multi，设置方法跟一键多音一样，参考图
 
-![img](/img/tutorial/makeproject/02/midieffectrack-multi.png)
+![img](/images/tutorial/makeproject/02/midieffectrack-multi.png)
 
 之后往MIDIext里放不同的灯光，即可达到一键多灯
 
@@ -183,15 +183,15 @@ STEMS提取出来后已经有分离后的歌曲与单独提取出来的内容了
 ### 制作渐变灯光
 渐变灯光的做法其实很简单，这是我们在菜鸟篇画的灯光
 
-![img](/img/tutorial/makeproject/02/light.png)
+![img](/images/tutorial/makeproject/02/light.png)
 
 如果你要给这个灯光加上渐变，你只需要这样，选中整个灯光，然后按住键盘上的Ctrl键，然后拖动灯光，到灯光的后方，然后更改颜色，他就有颜色的变化了，颜色数值依旧是参考上一篇给出的颜色图表
 
-![img](/img/tutorial/makeproject/02/draw-light.gif)
+![img](/images/tutorial/makeproject/02/draw-light.gif)
 
 如果你需要更加艳丽的灯光，比方说彩虹灯，你就按照一样的逻辑，将灯光往后渐变，然后按照“赤橙黄绿青蓝紫”的顺序来安排颜色，一般是5开始累加4，一直加到57为止，最后播放出来的效果就有彩虹灯了，如图
 
-![img](/img/tutorial/makeproject/02/rainbowlight.gif)
+![img](/images/tutorial/makeproject/02/rainbowlight.gif)
 
 当然你可能会觉得很繁琐，我们也是这么觉得的，所以Kaskobi推出了Eyedrop插件来将整个制作流程全部简化了，但关于这个插件我们就留在进阶部分里讲吧
 
@@ -201,9 +201,9 @@ STEMS提取出来后已经有分离后的歌曲与单独提取出来的内容了
   - 你什么也不需要，跟正常画灯一样，直接打开钢琴卷帘窗然后开始绘画即可，你的顶灯与边灯都是可以触发的，直接按就好了
 - 如果你是Launchpad MK2，MK1系列的设备
   - 你需要下载插件Top Lights，[下载](/download/amxd)，将此插件放置在灯光轨道的最末尾，一定要是最末尾，因为插件的前后顺序是有影响的，其次还有灯光绘制轨道里也要放一个
-  ![img](/img/tutorial/makeproject/02/toplights.png)
+  ![img](/images/tutorial/makeproject/02/toplights.png)
   - 之后打开钢琴卷帘窗，然后找到B0到E0这个区域，拿鼠标移到钢琴键上就能显示当前键位了，找到这个区域了后，这里就是顶灯区域了，这里你只能手绘顶灯，因为MK2系列无法直接按顶灯区域来绘制灯光，所以拿鼠标绘制就是个曲线救国的方法。你可以在琴键上按住滑动，对应的Pad上也会亮起对应的灯，你只要按照一定的顺序拿鼠标来画即可
-    ![img](/img/tutorial/makeproject/02/toplights-create.gif)
+    ![img](/images/tutorial/makeproject/02/toplights-create.gif)
   - 边灯可以直接触发，没关系，直接在Pad上画就好了
   - 绘制完成后则跟正常灯光一样，导出然后插入MIDIext即可
 

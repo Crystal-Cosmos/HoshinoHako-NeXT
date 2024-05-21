@@ -23,7 +23,7 @@ macOS：/Users/（用户名）/Music/Ableton/User Library/Presets/MIDI Effects/M
 :::
 
 ## MIDI Extension
-![img](/img/amxd/midiext.webp =140x)
+![img](/images/amxd/midiext.webp =140x)
 
 MIDI Extension是最最传统的一个基于Max的灯光呈现插件
 
@@ -66,7 +66,7 @@ Author:
 :::
 
 ## MIDI Fire
-![img](/img/amxd/midifire.webp)
+![img](/images/amxd/midifire.webp)
 
 MIDI Fire 也是曾经辉煌一时的基于Max的灯光呈现插件  
 它是首个做到了能自动灯光加载的插件，但是由于功能过多，内存占用非常大，后被Lightweight，MIDIext2.0等等插件淘汰
@@ -82,7 +82,7 @@ Author: Launchpad Lights
 </a>
 
 ## Eyedrop
-![img](/img/amxd/eyedrop.webp =350x)
+![img](/images/amxd/eyedrop.webp =350x)
 
 Eyedrop的诞生与Apollo Studio一样，打破了传统的灯光制作方法  
 这是一个基于Max的灯光制作插件，可以通过简单的几步操作，减负原来的灯光制作的流程
@@ -98,7 +98,7 @@ Author: Kaskobi
 </a>
 
 ## Page Switcher
-![img](/img/amxd/pageswitcher.webp =140x)
+![img](/images/amxd/pageswitcher.webp =140x)
 
 这是一个翻页插件，不同于传统的按键映射方法，这个插件可以在无需映射的情况下进行翻页，设置好工程页数即可
 
@@ -111,7 +111,7 @@ Author: Kaskobi
 </a>
 
 ## Multi Effect
-![img](/img/amxd/multieffect.webp =140x)
+![img](/images/amxd/multieffect.webp =140x)
 
 这是单键多效果的插件，代替了原来制作一键多音/一键多灯用到的Random效果器，通过直观便捷的方式达到所需的效果
 
@@ -124,9 +124,9 @@ Author: Kaskobi
 </a>
 
 ## Project Manager
-![img](/img/amxd/inputmanager.webp)
+![img](/images/amxd/inputmanager.webp)
 
-![img](/img/amxd/outputmanager.webp)
+![img](/images/amxd/outputmanager.webp)
 
 正如他的名字，这是一个工程管理插件，通过此插件，你可以进行
 - 播放停止、灯光停止
@@ -161,7 +161,7 @@ Author: Kaskobi
 :::
 
 ## Resonator
-![img](/img/amxd/resonator.webp)
+![img](/images/amxd/resonator.webp)
 
 通过Resonator可以方便的制作简易的灯光，不同于平常手绘的大型灯光，Resonator只能制作偏小型的按键渐变灯光
 
@@ -187,7 +187,7 @@ Author: Kaskobi
 
 **Top Lights 2.1.3**
 
-![img](/img/amxd/toplights.webp =140x)
+![img](/images/amxd/toplights.webp =140x)
 <a 
   href="https://da-1302821495.cos.ap-chengdu.myqcloud.com/amxd/toplights/TopLights2.1.3.amxd"
   referrerpolicy="origin"
@@ -198,7 +198,7 @@ Author: Kaskobi
 @tab Sein & Music版本
 `本插件年久失修，工程内缺失请使用Kaskobi版本替换，仅作留档`
 
-![img](/img/amxd/toplights-sm.webp =450x)
+![img](/images/amxd/toplights-sm.webp =450x)
 <a 
   href="https://da-1302821495.cos.ap-chengdu.myqcloud.com/amxd/toplights/TopLights-by-Sein-Music.amxd"
   referrerpolicy="origin"
@@ -209,7 +209,7 @@ Author: Kaskobi
 :::
 
 ## Tempo Changer
-![img](/img/amxd/tempochanger.webp =140x)
+![img](/images/amxd/tempochanger.webp =140x)
 
 这是一个快速在演奏时切换工程BPM的插件，个别歌曲编曲时采用变速手法，制作工程时需要使用到
 
@@ -222,7 +222,7 @@ Author: Kaskobi
 </a>
 
 ## MIDI Counter
-![img](/img/amxd/midicounter.webp =140x)
+![img](/images/amxd/midicounter.webp =140x)
 
 这是一个玩的插件，可以用来计算当前工程灯光量总额
 
@@ -235,7 +235,7 @@ Author: Kaskobi
 </a>
 
 ## Micro Light
-![img](/img/amxd/microlight.webp)
+![img](/images/amxd/microlight.webp)
 
 这是一个Launchpad模拟器，可以用来在没有Launchpad的时候，或者需要制作多板工程时用作辅助
 
@@ -257,8 +257,7 @@ Author: Kaskobi
 
 @tab 按键接收端
 **Micro Light Reciever**
-
-<img src="/img/amxd/microlight-r.webp"/>
+![img](/images/amxd/microlight-r.webp)
 
 <a 
   href="https://da-1302821495.cos.ap-chengdu.myqcloud.com/amxd/microlight/MicroLight%20Reciever.amxd"
@@ -270,8 +269,8 @@ Author: Kaskobi
 :::
 
 ## Echo
-![img](/img/amxd/echo.webp)
-![img](/img/amxd/echoR.webp)
+![img](/images/amxd/echo.webp)
+![img](/images/amxd/echoR.webp)
 
 这是一个玩的插件，可以在Launchpad上制作音频可视化
 
@@ -286,7 +285,7 @@ Author: Kaskobi
 </a>
 
 ## Gamepad to MIDI
-![img](/img/amxd/gamepadmidi.webp)
+![img](/images/amxd/gamepadmidi.webp)
 
 这是一个辅助插件，可以将游戏手柄（Xbox、Dualshork）的按键映射成MIDI信号传输到Live内
 
@@ -301,7 +300,7 @@ Author: Kaskobi
 </a>
 
 ## Outbreak
-![img](/img/amxd/outbreak_logo-bg.webp =311x)
+![img](/images/amxd/outbreak_logo-bg.webp =311x)
 
 Outbreak是一个插件包，包含以下所有插件
 
@@ -345,7 +344,7 @@ Author: mat1jaczyyy
 :::
 
 ## ERA  
-![img](/img/amxd/Era_POSTER.webp)
+![img](/images/amxd/Era_POSTER.webp)
 
 ERA 系列插件是由314Dragon团队开发的新式插件，在Ourbreak的基础上进行创新开发，内含
 - Spectrum
@@ -374,7 +373,7 @@ Author: 314Dragon
 </a>
 
 ## De Noise
-![img](/img/amxd/denoise.webp =140x)
+![img](/images/amxd/denoise.webp =140x)
 
 De Noise是一款防卡灯防闪灯的插件，放置于灯光轨道最后即可
 
@@ -392,7 +391,7 @@ Author: 314Dragon
 Author: SoNevable，Kaksobi
 ::: tabs
 @tab Wormhole
-![img](/img/amxd/wormhole.webp)
+![img](/images/amxd/wormhole.webp)
 <a 
   href="https://da-1302821495.cos.ap-chengdu.myqcloud.com/amxd/wormhole/Wormhole.amxd"
   referrerpolicy="origin"
@@ -401,7 +400,7 @@ Author: SoNevable，Kaksobi
 </a>
 
 @tab WormholeLite
-![img](/img/amxd/wormholelite.webp)
+![img](/images/amxd/wormholelite.webp)
 <a 
   href="https://da-1302821495.cos.ap-chengdu.myqcloud.com/amxd/wormhole/Wormhole_Lite.amxd"
   referrerpolicy="origin"
@@ -412,7 +411,7 @@ Author: SoNevable，Kaksobi
 :::
 
 ## Blackhole 
-![img](/img/amxd/blackhole.png)
+![img](/images/amxd/blackhole.png)
 
 Blackhole也是一个自动翻页插件，界面跟Twist比较像
 
@@ -425,7 +424,7 @@ Author: Nyrk
 </a>
 
 ## Orion
-![img](/img/amxd/orion.png)
+![img](/images/amxd/orion.png)
 
 Orion是一个顶灯插件，等同于Top Lights
 
@@ -438,7 +437,7 @@ Author: Nyrk
 </a>
 
 ## Warpfire
-![img](/img/amxd/warpfire.png)
+![img](/images/amxd/warpfire.png)
 
 Warpfire是一款BPM变速软件，用于调节Live的BPM以适应变速歌曲，出的比Tempo Changer早，功能相同
 

@@ -2,8 +2,8 @@
 home: true
 icon: home
 title: 主页
-heroImage: /logo.svg
-bgImageDark: bg.png
+heroImage: assets/logo.svg
+bgImageDark: assets/bg.png
 bgImageStyle: 
   background-attachment: fixed
   filter: opacity(50%)
@@ -23,6 +23,6 @@ actions:
     link: support
     type: primary
 
-copyright: Background from <a href="https://wallhaven.cc/w/ex2wd8" target="_blank">Wallhaven</a> | Copyright © Arkito in CrystalCosmos
+copyright: Background from <a href="https://wallhaven.cc/w/ex2wd8" target="_blank">Wallhaven</a> | Copyright © Arkito from DeltaΔAsters
 footer:  <img class="icp-icon" src="assets/icon/icon120.png"/> <a href="https://icp.gov.moe/?keyword=20234110" target="_blank">萌ICP备20234110号</a>
 ---

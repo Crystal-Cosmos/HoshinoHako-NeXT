@@ -17,33 +17,33 @@ Echo是由Kaskobi开发的Max For Live插件，为Launchpad创建音频可视化
 
 你需要将Echo本体放置在`User Library\Presets\Audio Effects\Max Audio Effect`
 
-![img](/img/tutorial/echo/echo1.png)
+![img](/images/audiovisualization/echo1.png)
 
 然后将将Echo Reciever放置在`User Library\Presets\MIDI Effects\Max MIDI Effect`
 
-![img](/img/tutorial/echo/echo2.png)
+![img](/images/audiovisualization/echo2.png)
 
 ### 配置Ableton Live
 打开Live，在左侧“浏览器-Max For Live-Max Audio Effect”里，找到Echo本体，将其载入到Master轨道内
 
-![img](/img/tutorial/echo/setecho.png)
+![img](/images/audiovisualization/setecho.png)
 
-![img](/img/tutorial/echo/setecho2.png)
+![img](/images/audiovisualization/setecho2.png)
 
 之后在左侧“浏览器-Max For Live-Max MIDI Effect”里，找到Echo Reciever，将其载入任意一个MIDI轨道内即可，输出设置成Launchpad，CH选择你设备对应的
 
-![img](/img/tutorial/echo/setecho3.png)
+![img](/images/audiovisualization/setecho3.png)
 
-![img](/img/tutorial/echo/setecho4.png)
+![img](/images/audiovisualization/setecho4.png)
 
 ### 播放音频文件
 使音频文件有可视化很简单，你只需要将音频文件拖动到Live内，然后将Warp关掉，播放音频即可，此时就有可视化的效果了
 
-![img](/img/tutorial/echo/visual1.png)
+![img](/images/audiovisualization/visual1.png)
 
-![img](/img/tutorial/echo/echowarp.png)
+![img](/images/audiovisualization/echowarp.png)
 
-![img](/img/tutorial/echo/visuals.png)
+![img](/images/audiovisualization/visuals.png)
 
 
 ### 播放电脑声音
@@ -59,24 +59,24 @@ Echo是由Kaskobi开发的Max For Live插件，为Launchpad创建音频可视化
 
 完成安装重启电脑后检查你的电脑输出设备，是不是VoiceMeeter
 
-![img](/img/tutorial/echo/audiooutput.png)
+![img](/images/audiovisualization/audiooutput.png)
 
 然后启用Voicemeeter软件，他不会创建快捷方式，所以会在“开始菜单”里
 
-![img](/img/tutorial/echo/voicemeeter.png)
+![img](/images/audiovisualization/voicemeeter.png)
 
 打开后，将Hardware Out处的A1，调整成你原来电脑的默认输出设备
 
-![img](/img/tutorial/echo/setvoicemeeter1.png)
+![img](/images/audiovisualization/setvoicemeeter1.png)
 
 然后检查总输出的A跟B是否打开，如果正常，你就可以先把软件最小化，注意不要点×，会直接关闭软件，如果你需要后台常驻，将Menu菜单里的System Tray打开就可以点×了
 
-![img](/img/tutorial/echo/setvoicemeeter2.png)
+![img](/images/audiovisualization/setvoicemeeter2.png)
 
 然后我们回到Live，打开偏好设定，设置输出输入全部为VoiceMeeter，然后关闭窗口
 
-![img](/img/tutorial/echo/setliveout.png)
+![img](/images/audiovisualization/setliveout.png)
 
 保留一个音频轨道，保留一个MIDI轨道。同上方[配置Ableton Live](#配置ableton-live)，设置轨道。不过音频轨道不同，你需要将音频轨道的监听改成“In”，然后关闭这个轨道。此时你在电脑内播放的任何声音都会被Live捕获，并输出给Master轨道里的Echo，从而达到音频可视化，如图
 
-![img](/img/tutorial/echo/visual2.png)
+![img](/images/audiovisualization/visual2.png)

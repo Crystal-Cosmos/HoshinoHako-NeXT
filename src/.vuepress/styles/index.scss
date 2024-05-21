@@ -1,9 +1,13 @@
 // place your custom styles here
-.icp-icon{
-  width: 15px;
+@font-face{
+  font-family: HarmonyOS Sans SC;
+  src: url("/src/.vuepress/public/assets/fonts/HarmonyOS_Sans_SC_Medium.ttf");
 }
 
 body{
   font-family: "HarmonyOS Sans SC";
-  src: url("/src/.vuepress/public/assets/fonts/HarmonyOS_Sans_SC_Medium.woff2");
+}
+
+.icp-icon{
+  width: 15px;
 }

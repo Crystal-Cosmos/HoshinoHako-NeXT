@@ -17,7 +17,7 @@ icon:
 ## 1.卸载Ableton Live
 从控制面板卸载软件即可
 
-![img](/img/tutorial/resetlive/uninstall.png)
+![img](/images/tutorial/resetlive/uninstall.png)
 
 ::: info 注意
 此步骤会删除MIDI Extension 1.0手动加载灯光工程的灯光包文件
@@ -26,7 +26,7 @@ icon:
 ## 2.清除配置与授权文件
 按键盘上Win+R，打开运行，输入`%APPDATA%`，回车
 
-![img](/img/tutorial/resetlive/run.png)
+![img](/images/tutorial/resetlive/run.png)
 
 然后删除“Ableton”文件夹
 

@@ -1,43 +1,51 @@
-# Bricked it?
-::: info 备注
+---
+tag:
+ - 施工中
+---
+# 砖了？
+::: info
 搬运自[mat1jaczyyy](https://github.com/mat1jaczyyy/lpp-performance-cfw/blob/master/unbrick.md)
-还没翻译，部分链接已损坏mat没更新
+Gemini+人工校对
 :::
 
-Your Launchpad should never get bricked if you're just regularly using the firmware, but if you're making modifications while developing, it can happen time to time. You can easily recognize a brick by the inability to boot into the bootloader. Having unbootable firmware means you just need to flash a fresh one, while being unable to reach the bootloader means you can't upload any code to your Launchpad anymore.
+Launchpad 通常情况下不会因为刷写固件而变砖，通常会在开发过程中进行底层的修改操作从而导致变砖。 无法启动到引导模式 (Bootloader) 是变砖的特征。 如果你只是单纯的无法启动固件，你只需重新刷入一个固件即可；当你无法进入引导程序时，才需要进行救砖，只要能成功进入Bootloader就代表你的Launchpad还是好的
 
-Please don't do this unless you actually know what you're doing!
+:::danger
+除非您确切知道自己在做什么，否则请不要执行之后的操作！
+:::
 
-## Required tools
+## 所需工具
 
-* A bricked Launchpad Pro :(
-* A cheap [ST-LINK V2](https://www.ebay.com/itm/ST-Link-V2-Mini-Debugger-und-Programmier-Emulator-fur-STM8-STM32-Arduino/392963947934)
-* The [STM32 ST-LINK Utility](/resources/unbrick/STM32%20ST-LINK%20Utility%20v4.4.0%20setup.exe)
-* 4 female-to-male jumper wires
-* A [backup of the Launchpad Pro's memory](https://cdn.discordapp.com/attachments/636554539096473600/826560546890579998/pro_backup.bin)
+* 一个砖了的Launchpad Pro
+* 随便一个 ST-LINK V2
+* [STM32 ST-LINK Utility](/resources/unbrick/STM32%20ST-LINK%20Utility%20v4.4.0%20setup.exe)
+* 4 根母转公跳线
+* 一个 [Launchpad Pro内存底层的备份文件（暂不可用，请别处获取）](https://cdn.discordapp.com/attachments/636554539096473600/826560546890579998/pro_backup.bin)
 
-## Perform surgery on the hardware
+## 拆机
 
-Disassemble the Launchpad Pro, only detaching the power management module. Make sure not to lose the tiny power button! With the CPU exposed, connect the following points to the ST-LINK. You'll likely have to hold the connection to `SWDIO` yourself, rather than having it keep itself plugged in:
+拆卸 Launchpad Pro，只分离电源管理模块，注意别丢了电源按钮
+CPU 裸露后，将以下点连接到 ST-LINK
+您可能需要自己将 SWDIO 连接保持，而不是让它一直保持插入状态：
 
-![ST-LINK Connection Diagram](/img/other/brick/1.png)
+![ST-LINK 连接示意图](/images/unbrick/1.png)
 
-## Reflash the memory
+## 重新刷写内存
 
-Run the ST-LINK Utility. Make sure your ST-LINK's firmware is updated:
+运行 ST-LINK 实用工具。确保您的 ST-LINK 固件已更新：
 
-![ST-LINK Firmware Update](/img/other/brick/2.png)
+![ST-LINK Firmware Update](/images/unbrick/2.png)
 
-Connect to the bricked Launchpad Pro:
+连接到砖了的 Launchpad Pro：
 
-![A trashed bootloader](/img/other/brick/3.png)
+![A trashed bootloader](/images/unbrick/3.png)
 
-Program & Verify the memory backup file:
+烧录并验证内存备份文件：
 
-![Fixing it...](/img/other/brick/4.png)
+![Fixing it...](/images/unbrick/4.png)
 
-After you're done flashing, disconnect the ST-LINK and the Launchpad should boot to Vegas mode straight away.
+刷写完成后，断开 ST-LINK 连接，Launchpad 应该可以直接启动到 Vegas 模式。
 
-![Fixed!](/img/other/brick/5.png)
+![Fixed!](/images/unbrick/5.png)
 
 Have fun reassembling it :)

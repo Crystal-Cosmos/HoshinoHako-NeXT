@@ -11,10 +11,10 @@ export default hopeTheme({
   },
 
   iconAssets: [
-    "//at.alicdn.com/t/c/font_4421024_stsfip4h4t.css",
+    "//at.alicdn.com/t/c/font_4421024_lvou8ervqm.css",
   ],
 
-  logo: "/favicon.ico",
+  logo: "assets/favicon.ico",
 
   repo: "arkitowho/hoshinohako",
 

@@ -45,7 +45,7 @@ Launchpad 性能优化自定义固件，简称自制固件（Custom Firmware/CFW
 各端口的含义可在[此处](/lessons/others/midiportset)查看（针对高级人员）
 
 ### Setup设置菜单（省流版）
-![img](/img/tutorial/cfw/instruction.jpg)
+![img](/images/cfwmanual/instruction.jpg)
 
 ### Setup设置菜单
 你不再需要按住Setup按钮来改变设置。只需按一下，就可以轻松的进入和退出Setup设置菜单。如果你习惯于在更改设置时按住按钮的旧方式，CFW同样支持，当你长按按钮时修改了部分设置，松开按钮时，Launchpad会识别并退出Setup。

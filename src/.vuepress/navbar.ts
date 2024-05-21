@@ -10,7 +10,7 @@ export default navbar([
     children: [
       {
         text: "Launchpad固件助手",
-        icon: "earth-america",
+        icon: "lfu",
         link: "https://lfu.arkitosekai.net",
       },
       {

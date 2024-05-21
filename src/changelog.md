@@ -2,6 +2,16 @@
 title: 更新日志
 icon: clock-rotate-left
 ---
+2024/5/21
+- 优化调用逻辑
+- 添加了LFU favicon
+
+2024/5/19
+- 合并Launchpad固件助手upstream，新版本更新内容如下：
+  - 添加了MIDI Fighter 64支持（可选补丁：伪造Novation VID，自定义色板）
+  - 添加了MIDI Fighter 64 CFW
+  - 网站底层重构
+
 2024/4/23
 - 更新了一对一课程介绍
 - 翻译了救砖流程

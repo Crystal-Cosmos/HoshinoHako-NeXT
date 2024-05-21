@@ -26,7 +26,7 @@ Novation没有单独给每个设备做Windows的适配，他的所有设备在Wi
 1. 在输出里选择端口，如何选择参考下文
 1. 启用Launchpad端口的轨道与外部控制
 
-  ![img](/img/tutorial/sa-midi/preference-midiports.jpg =400x)
+  ![img](/images/tutorial/sa-midi/preference-midiports.jpg =400x)
 
   ::: info 
   轨道与外部控制开启后意味着当前设备可以发送控制信号到轨道从而影响轨道，如果不开启那么你在MIDI设备上做的任何操作Live都不会进行响应

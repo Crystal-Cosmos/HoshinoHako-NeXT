@@ -1,7 +1,7 @@
 ---
 title: Launchpad 固件助手
 ---
-![fw-img](/img/other/lfu.jpg)
+![fw-img](/images/lfu.jpg)
 
 Launchpad Firmware Utility 是由mat1jaczyyy开发的Launchpad固件管理工具。
 
@@ -9,7 +9,7 @@ Launchpad Firmware Utility 是由mat1jaczyyy开发的Launchpad固件管理工具
 
 在这个网站上你可以：
 * 如同Novation Components一样为Launchpad更新固件
-* 为Launchpad Pro MK1刷入mat1jaczyyy制作的自制固件：[这是什么？](/tutorial/cfwmanual)
+* 为Launchpad Pro MK1刷入mat1jaczyyy制作的自制固件：[这是什么？](/lessons/others/cfwmanual)
 * 为固件安装Apollo Studio Fast LED模块，提升在Apollo Studio中的灯光流速（不支持Launchpad Pro MK3）
 * 为Launchpad替换自定义色板（不支持Launchpad Pro MK3）
 * 为Launchpad Pro MK1自制固件刷入自定义色板以及自定义模式

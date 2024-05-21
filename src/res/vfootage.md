@@ -9,9 +9,9 @@ icon: video
 ## Launchpad对中网格
 Author: Kaskobi
 
-![img](/assets/image/vfootage/Launchpad-Grid.png)
+![img](/images/vefootage/Launchpad-Grid.png)
 
 ## 视频边缘高光遮罩点
 Author: Kaskobi
 
-![img](/assets/image/vfootage/VideoDarkeningSpot.png =300x)
+![img](/images/vefootage/VideoDarkeningSpot.png)
