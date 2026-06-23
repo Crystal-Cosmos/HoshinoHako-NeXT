@@ -1,0 +1,10 @@
+node_modules
+.cache
+.temp
+dist
+
+# MacOS desktop services store
+.DS_Store
+
+# Log files
+*.log
